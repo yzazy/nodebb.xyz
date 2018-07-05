@@ -2,7 +2,7 @@
   "name": "nodebb.xyz",
   "license": "GPL-3.0",
   "description": "NodeBB Forum",
-  "version": "1.9.3",
+  "version": "1.10.0",
   "homepage": "http://www.nodebb.org",
   "repository": {
     "type": "git",
@@ -11,9 +11,9 @@
   "main": "NodeBB/app.js",
   "scripts": {
     "install": "git clone https://github.com/NodeBB/NodeBB && cp setup.json NodeBB/config.json",
-    "start": "./NodeBB/nodebb build",
+    "start": "npm i npm@latest -g",
     "dev": "./NodeBB/nodebb setup && ./NodeBB/nodebb dev",
-    "ok": "./NodeBB/nodebb setup && node NodeBB/app"
+    "ok": "./NodeBB/nodebb upgrade && node NodeBB/app"
   },
   "dependencies": {
     "debug": "^3.1.0"
