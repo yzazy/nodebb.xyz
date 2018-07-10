@@ -3,7 +3,7 @@
     "port":"8080",
     "database": "redis",
     "redis": {
-        "host": "ip-172-21-62-177.ec2.internal",
+        "host": "10.128.31.25",
         "port": 6379,
         "password": "EWc4Jph7Pk537tmi",
         "database": "0"
