@@ -3,9 +3,9 @@
     "port":"8080",
     "database": "redis",
     "redis": {
-        "host": "10.131.39.162",
+        "host": "ip-172-21-62-177.ec2.internal",
         "port": 6379,
-        "password": "C3CCIpV6dVfrpdYR",
+        "password": "EWc4Jph7Pk537tmi",
         "database": "0"
     },
     "secret": "4154d41c-d081-41f6-2610-abb25f10353b"
