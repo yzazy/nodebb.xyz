@@ -10,7 +10,7 @@
   },
   "main": "NodeBB/app.js",
   "scripts": {
-    "install": "git clone https://github.com/NodeBB/NodeBB && cp setup.json NodeBB/config.json",
+    "install": "git clone --single-branch=v1.10.x https://github.com/NodeBB/NodeBB && cp setup.json NodeBB/config.json",
     "start": "npm i npm@latest -g",
     "dev": "./NodeBB/nodebb setup && ./NodeBB/nodebb dev",
     "ok": "./NodeBB/nodebb upgrade && node NodeBB/app"
